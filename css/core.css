@@ -28,6 +28,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
+    font-size: 1.2em;
 }
 
 /* Top Bar */
@@ -113,6 +114,7 @@ hr.divider {
 @media (max-width: 767px) {
     body {
         padding: 10px;
+        font-size: .8em;
     }
 
     .topbar {
@@ -145,6 +147,7 @@ hr.divider {
 @media (min-width: 768px) and (max-width: 1025px) {
     body {
         padding: 15px;
+        font-size: .8em;
     }
 
     .topbar {
@@ -163,6 +166,7 @@ hr.divider {
         column-gap: 5px;
         margin-top: 15px;
         margin-bottom: 15px;
+        row-gap: 5px;
     }
 
     nav ul li {
