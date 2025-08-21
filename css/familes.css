@@ -43,7 +43,7 @@
     height: 315px;
 }
 
-.media {
+.media-col {
     display: flex;
     flex-direction: column;
 }
