@@ -1,0 +1,131 @@
+.destination-row {
+    margin-bottom: 20px;
+    border: 2px solid #2877a9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #949494 0px 0px 10px;
+}
+
+.destination-row-flex {
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+.content-snippets {
+    display: flex;
+    column-gap: 20px;
+}
+
+.snippet {
+    flex: 1;
+    flex-shrink: 1;
+}
+
+.snippet ul {
+    padding-inline-start: 20px;
+}
+
+.content p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.snippet-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.youtube-video {
+    width: 560px;
+    height: 315px;
+}
+
+.media-col {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+img.destination-image {
+    width: 100%;
+    height: 300px;
+    max-width: 560px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.title-row-w-tags {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    height: 100%;
+    margin-right: 0;
+    margin-left: auto
+}
+p.tag {
+    background: #2877a9;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    margin: 0px;
+    margin-top: -10px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .youtube-video {
+        width: 85vw;
+        height: auto;
+    }
+
+    .destination-row-flex {
+        flex-direction: column;
+    }
+
+    .content-snippets {
+        flex-direction: column;
+    }
+    .title-row-w-tags {
+        flex-direction: column;
+    }
+    .tag-container {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+    p.tag {
+    margin-bottom: 10px
+}
+}
+
+/* Tablet View */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .youtube-video {
+        width: 40vw;
+        height: auto;
+    }
+
+    .destination-row-flex {
+        flex-direction: row;
+    }
+
+    .content-snippets {
+        flex-direction: column;
+    }
+
+    .media {
+        width: 40vw;
+    }
+}
