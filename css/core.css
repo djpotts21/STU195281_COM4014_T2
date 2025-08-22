@@ -103,20 +103,27 @@ hr.divider {
 /* Buttons */
 .button {
     background-color: #2877a9;
-    /* Green */
     border: none;
     color: white;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
     width: calc(100% - 20px);
 }
-
+/* Citation */
+.citation {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 5px;
+    background: white;
+    width: fit-content;
+    padding: 5px 10px;
+}
 /* Mobile Styles */
 @media (max-width: 767px) {
     body {
