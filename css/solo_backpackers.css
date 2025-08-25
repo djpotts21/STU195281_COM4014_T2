@@ -34,18 +34,21 @@
     margin: 0;
     margin-bottom: 20px;
 }
+
 .title-row-w-blurb {
     background: white;
     padding: 10px;
     margin: 20px 0;
     border-radius: 10px;
 }
+
 .tag-container {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     justify-content: flex-end;
 }
+
 p.tag {
     display: inline-block;
     padding: 6px 16px;
@@ -58,13 +61,14 @@ p.tag {
     color: #fff;
     letter-spacing: 1px;
     font-size: 0.95rem;
-    box-shadow: 0 2px 8px rgba(40,119,169,0.15);
+    box-shadow: 0 2px 8px rgba(40, 119, 169, 0.15);
     transition: transform 0.15s, box-shadow 0.15s;
     cursor: pointer;
 }
+
 p.tag:hover {
     transform: translateY(-2px) scale(1.05);
-    box-shadow: 0 4px 16px rgba(40,119,169,0.25);
+    box-shadow: 0 4px 16px rgba(40, 119, 169, 0.25);
 }
 
 .bg-energetic {
@@ -77,9 +81,11 @@ p.tag:hover {
 .thailand {
     background-image: url(../images/270624876_46ab1cefdf_z.jpg);
 }
+
 .budapest {
     background-image: url(../images/54011677_c37442337acd4f3b3af44e72c1ba32ff_wm.jpg);
 }
+
 .mexico {
     background-image: url(../images/49367605526_7e95a18e42_c.jpg);
 }
@@ -116,20 +122,28 @@ p.tag:hover {
         flex-direction: column;
     }
 
+    .destination-row {
+        height: unset;
+    }
+
     .content-snippets {
         flex-direction: column;
+        row-gap: 20px;
     }
+
     .title-row-w-tags {
         flex-direction: column;
     }
+
     .tag-container {
-        flex-direction: column;
+        flex-direction: row;
         margin-left: 0;
         text-align: center;
     }
+
     p.tag {
-    margin-bottom: 10px
-}
+        margin-bottom: 10px
+    }
 }
 
 /* Tablet View */
@@ -145,9 +159,14 @@ p.tag:hover {
 
     .content-snippets {
         flex-direction: column;
+        row-gap: 20px;
     }
 
     .media {
         width: 40vw;
+    }
+
+    .destination-row {
+        height: unset;
     }
 }
