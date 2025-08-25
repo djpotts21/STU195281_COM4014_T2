@@ -169,4 +169,7 @@ p.tag:hover {
     .destination-row {
         height: unset;
     }
+    .content {
+    width: 100%;
+}
 }
